@@ -39,8 +39,8 @@
  * [blockquic] blockquic=on 阻止; blockquic=off 不阻止
  */
 
-const inArg = {'blkey':'iplc+GPT>GPT+NF+IPLC', 'flag':true };
-// const inArg = $arguments; // console.log(inArg)
+const inArg = {'blkey':'iplc+gpt+NF+IPLC', 'flag':true };
+const inArg = $arguments; // console.log(inArg)
 // 剩余代码保持不变...
 const nx = inArg.nx || false,
   bl = inArg.bl || false,
